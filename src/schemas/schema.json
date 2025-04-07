@@ -1,0 +1,105 @@
+{
+  "Science": [
+    {
+      "Code": "Sci_001",
+      "Short-Name": "BioMimicry: Kingfishers and Bullet Trains",
+      "Picture-URL": "",
+      "Grades": [6, 7, 8, 9, 10, 11, 12],
+      "Categories": ["Life Science"],
+      "Content": {
+        "URL": "https://asknature.org/innovation/high-speed-train-inspired-by-the-kingfisher/#biological-model",
+        "Content-Type": "Online Resource",
+        "Materials": ["headphones"],
+        "Text": "The Shinkansen bullet train travels along high-speed railways throughout Japan at speeds of 240–320 km/hr (150–200 mph), carrying millions of passengers every year. However, when it was first designed, the high speeds caused an atmospheric pressure wave to build up in front of the train. When it would travel through tunnels, the wave would cause a loud “tunnel boom” at the exit, disturbing nearby residents. The engineers had to find a way for the train to travel more quietly without sacrificing speed or using more energy.",
+        "Prompt": "Question: In what ways did the bullet train use biomimcry in it's re-design?"
+      }
+    },
+    {
+      "Code": "Sci_002",
+      "Short-Name": "Who is in Space Right Now?",
+      "Picture-URL": "",
+      "Grades": [5, 6, 7, 8, 9, 10, 11, 12],
+      "Categories": ["Space"],
+      "Content": {
+        "URL": "https://www.nasa.gov/specials/kidsclub/nowinspace/index.html",
+        "Content-Type": "Online Resource",
+        "Materials": [],
+        "Text": "There are over 8 billion humans on Earth! However only a few of us are in space right now. Check out NASA's complete list of astronauts in space right now to learn more about them.",
+        "Prompt": "Question: How many people are in space right now? Write down their names and why they are in space (if not provided, what's a fun fact about them?)."
+      }
+    },
+    {
+      "Code": "Sci_003",
+      "Short-Name": "NASA Kid's Club",
+      "Picture-URL": "",
+      "Grades": [3, 4, 5, 6, 7],
+      "Categories": ["Space"],
+      "Content": {
+        "URL": "https://www.nasa.gov/specials/kidsclub/games/clubhouse/index.html",
+        "Content-Type": "Games",
+        "Materials": [],
+        "Text": "Hello, Earth Kids! Welcome to NASA Kids Club: a place to play games and learn about NASA!"
+      }
+    }
+  ],
+  "ELA": [
+    {
+      "Code": "ELA_001",
+      "Short-Name": "Design a Book Cover",
+      "Picture-URL": "",
+      "Grades": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "Categories": ["Art"],
+      "Content": {
+        "URL": "",
+        "Content-Type": "Art",
+        "Materials": [],
+        "Text": "You are a designer for a marketing team called SchoolYard PR. They have asked you to design a book cover for a story you've recently read in class. You can create this design using paper and pencil or canva.com. For inspiration, see https://www.barnesandnoble.com/."
+      }
+    }
+  ],
+  "Social Studies": [
+    {
+      "Code": "SS_001",
+      "Short-Name": "Social Democracy: An Alternate History",
+      "Picture-URL": "",
+      "Grades": [9, 10, 11, 12],
+      "Categories": ["WWII"],
+      "Content": {
+        "URL": "https://red-autumn.itch.io/social-democracy",
+        "Content-Type": "Games",
+        "Materials": [],
+        "Text": "Play as the Social Democratic Party of Germany in 1928, and try to stop the NSDAP from taking power. Guide the party through elections and parliamentary politics. Deal with the Great Depression and the spiraling political violence that characterized the late Weimar Republic."
+      }
+    },
+    {
+      "Code": "SS_002",
+      "Short-Name": "Who is from Your Hometown?",
+      "Picture-URL": "",
+      "Grades": [9, 10, 11, 12],
+      "Categories": ["Geography", "Biography"],
+      "Content": {
+        "URL": "https://tjukanovt.github.io/notable-people",
+        "Content-Type": "Online Resource",
+        "Materials": [],
+        "Text": "An interactive map showing birthplaces of the most notable people around the world. Data has been processed to show only one person for each unique geographic location with the highest notability rank.",
+        "Prompt": "Find five people from your hometown (or around it) that are listed as notable. Who were/are they are why are they notable?"
+      }
+    }
+  ],
+  "Math": [
+    {
+      "Code": "MATH_001",
+      "Short-Name": "Polypad your Question",
+      "Picture-URL": "",
+      "Grades": [4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "Categories": ["Math"],
+      "Content": {
+        "URL": "https://polypad.amplify.com/",
+        "Content-Type": "Online Resource",
+        "Materials": [],
+        "Text": "Unleash your creativity with the worlds best virtual manipulatives! Our mathematical playground is filled with unique tools that allow students to play and explore, and theyre completely free to use.",
+        "Prompt": "Take a mathematical expression you have recently completed and use polypad to represent it in picture form."
+      }
+    }
+  ]
+}

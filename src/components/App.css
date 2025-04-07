@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* Overall layout */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f0f0f0;
+  color: #000080;
+}
+
+/* Navbar - old school blue bar with borders */
+.navbar {
+  background-color: #FFFFFF !important;
+  border-bottom: 4px double #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar a {
+  color: #000000 !important;
+  /* text-shadow: 1px 1px 0px #000; */
+}
+
+.navbar a:hover {
+  color: #cc6666 !important;
+  background-color: #ffffff22;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff8dc;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 24px,
+    #add8e6 25px /* light blue line every ~25px */
+  );
+  position: relative;
+  margin: 20px;
+  padding: 40px;
+  border-left: 5px solid #cc6666; /* like a #cc6666 notebook margin line */
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.5rem;
+  line-height: 25px;
+}
+
+/* Optional: subtle padding to simulate text not starting at the edge */
+.main-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 45px;
+  bottom: 0;
+  width: 2px;
+  background-color: #cc6666;
+}
+
+/* Handwritten-style header */
+.main-content h1 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 3rem;
+  color: #000;
+  text-shadow: none;
+  margin: 0;
+}
+
+/* Footer - black bar with green text */
+.footer {
+  background-color: #000;
+  font-size: 0.9rem;
+  border-top: 4px dashed;
+  text-transform: uppercase;
+}
+
+/* Blink animation like old HTML <blink> */
+@keyframes blink-border {
+  50% {
+    border-color: #00ffff;
+  }
+}
